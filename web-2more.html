@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #22645f;
+            margin: 0;
+            padding: 20px;
+        }
+        .topnav {
+            background-color: #4c8f94;
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover {
+            background-color: #3b917b;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .form {
+            background-color: #31755b;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+        #button {
+            text-align: center;
+            margin-top: 10px;
+            background-color: aqua;
+        }
+        #legend {
+            color: #794646;
+            font-weight: bold;
+        }
+        h1, h4 {
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+        fieldset {
+            border: 1px solid #794646;
+            padding: 20px;
+            background-color: #a85050;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="web-2more.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+    </div>
+
+    <h1><center>Contact us at:</center></h1>
+    <h4>nubaid.amin@gmail.com</h4>
+
+    <div class="form">
+        <form action="form">
+            <fieldset>
+                <div id="legend">
+                    <legend>Contact Form</legend>
+                </div>
+                <label for="name">Name</label>
+                <input type="text" name="name">
+                <label for="age">Enter your age:</label>
+                <input type="number" name="age">
+                <label for="email">Email</label>
+                <input type="email" name="email">
+                <label for="message">Message</label>
+                <textarea name="message" rows="5" cols="30"></textarea><br>
+                <div id="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

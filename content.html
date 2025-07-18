@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Content Display on website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         .pimg2, .pimg3 {
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.70;
+            background-attachment: fixed;
+        }
+
+        .pimg2 {
+            background-image: url("https://thumbs.dreamstime.com/b/autumn-along-tennessee-foot-hills-parkway-runs-smoky-mountains-oldest-unfinished-highway-state-missing-164461409.jpg");
+            min-height: 400px;
+        }
+
+        .pimg3 {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnCjgLvpR9tn-s6mfXQp3yS1yQOHheOb23mg&s");
+            min-height: 400px;
+        }
+
+        .pimg4 {
+            background-image: url("https://thumbs.dreamstime.com/b/autumn-along-tennessee-foot-hills-parkway-runs-smoky-mountains-oldest-unfinished-highway-state-missing-164461409.jpg");
+            min-height: 400px;
+        }
+
+        .section {
+            text-align: center;
+            padding: 50px, 80px, 50px, 50px;
+        }
+
+        .section-light {
+            background-color: #f4f4f4;
+            color: black;
+        }
+
+        .section-dark {
+            background-color: #333;
+            color: white;
+            padding: 50px, 50px, 50px, 50px;
+        }
+
+       
+
+        .ptext {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 18px;
+            text-transform: uppercase;
+        }
+
+        .ptext .border {
+            background-color: black;
+            padding: 20px;
+            color: rgb(0, 0, 0);
+        }
+
+        .ptext .border.trans{
+            background-color: transparent;
+        }
+
+        .ptext .border.tran {
+            background-color: transparent;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        .ptext .border.trant {
+            background-color: transparent;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 20px;
+        }
+
+        .section section-blue {
+            background-color: #5c7188;
+            color: rgb(0, 0, 0);
+        }
+
+        @media(max-width: 568px) {
+            .pimg1, .pimg2, .pimg3 {
+                background-attachment: scroll;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <span class="border trans" style="font-size: 40px;">
+        <center>Welcome all to this website</center>
+    </span><br>
+
+    <section class="section section-dark">
+         <h2>Section 1</h2>
+         <p>Web development is the work involved in developing a website for the internet(World wide web) or an intrenet</p>
+         <p><strong>Some pictures are given below:</strong></p>
+    </section> 
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">
+                image two texts
+            </span>
+    </div>
+
+    <div class="pimg4">
+        <div class="ptext">
+            <span class="border-tran">
+            </span>
+    </div>
+
+    <section class="section section-blue">
+        <h2>Section 2</h2>
+        <p>The above picture is about a natural scenery.It is written, "Image two texts"</p>
+    </section>
+</body>
+</html>

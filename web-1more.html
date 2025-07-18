@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My website with more pages</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4a9b94;
+            justify-content: center;
+            color: #485f5e;
+        }
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+            position: sticky;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #899699;
+            background-color: aquamarine;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover {
+            background-color: #55bec2;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #5eb7c7;
+            color: rgb(0, 0, 0);
+        }
+        .img1 {
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: #4c8691 10px 10px 10px;
+        }
+        .content, .about, .contact {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: rgb(104, 79, 79);
+            border-radius: 5px;
+            color: rgb(79, 117, 104);
+            text-align: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: #113d3f 5px solid;
+        }
+        .my-favourites {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: rgb(104, 79, 79);
+            border-radius: 5px;
+            color: rgb(18, 68, 97);
+            text-align: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: #282d77 5px solid;
+            box-shadow: #55bec2 10px 10px 10px ;
+        }
+        h1, h2, h3 {
+            color: #333;
+            background-color: darkcyan;
+        }
+        .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px; /* Adjust based on your image height */
+        }
+
+    /* Hide all slides by default */
+        .myslides {
+        display: none;
+        max-height: 100%; /* Ensure images fit within container */
+        max-width: 100%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            padding: 10px 10px 10px 10px;
+            margin: 10px 10px 10px 10px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="address.html">Address</a>
+        <a href="learn.html">Learn</a>
+        <a href="more.html">More</a>
+    </div>
+    <div class="img1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1z3WO2y5h7YkHljxIsvwuOxP21OE_8tnedA&s" alt="img1 alt">
+    </div>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple website template.This website is all about my favourite things to do.</p>
+        <p>Feel free to explore the different sections using the navigation bar above.</p><br>
+        <p>A website is a collection of files accessed through a web address, covering a particular theme or subject, and managed
+        by a particular person or organization. Its opening page is called a home page.This is a sample website</p>
+    </div>
+    <div class="about">
+        <h2>About Me</h2>
+        <p><b>My name is Muhammad Nubaid Amin.My age is 12 years.I am a student of grade 6.I live in Bangladesh</b></p>
+        <p> I'm a web enthusiast who loves creating simple and effective websites. This is a demonstration of a basic HTML structure with navigation links.I am also learning coding</p>
+        <p><b>I love coding.And i learn programming in codingal.</b>Read the following to learn more about me.</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or just want to say hello, feel free to reach out!</p>
+        <p>Email: <a href="https://mail.google.com/">nubaid.amin@gmail.com</a>
+        <p><b>If you have any query,contact me or email me from the above email address.</b></p>
+    </div>
+    <div class="my-favourites">
+        <h3>My favourites</h3>
+        <ul>
+            <li>Playing cricket</li>
+            <li>Reading books</li>
+            <li>Watching movies</li>
+            <li>Traveling</li>
+            <li>Learning new things</li>
+            <li>Reading science books</li>
+            <li>Reading magazine</li>
+        </ul>
+    </div>
+    <div class="carousel-container">
+        <img class="myslides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18habgo1GSKDrAuz67s5EAkjchiYIS-SA1w&s" height="300" width="300" alt="Slide 1">
+        <img class="myslides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP8EfApVfb5DKM6_yC_miZxqTI-JazWro5aw&s" height="300" width="300" alt="Slide 2">
+        <img class="myslides" src="https://static.vecteezy.com/system/resources/thumbnails/049/855/296/small_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" height="300" width="300" alt="Slide 3">
+        </div>
+    
+    <footer>
+        <div class="footer">
+        &copy; 2025 My Website. All rights reserved.
+        contact: nubaid.amin@gmail.com
+        </div>
+    </footer>
+</body>
+</html>
